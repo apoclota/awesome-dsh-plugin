@@ -1,0 +1,27 @@
+# 提交到 awesome-dsh-plugin：把这个文件放到该仓库的
+#   data/plugins/<owner>__<repo>.yml
+# 例如：data/plugins/apoclota__dsh-task-lens.yml
+# 不要直接改 awesome-dsh-plugin 的 README（它由 CI 生成）。
+
+url: https://github.com/apoclota/dsh-task-lens
+name: apoclota/dsh-task-lens
+category: ui
+
+description:
+  en: >-
+    An always-on draggable task lens: context-aware steps for drawing, coding and other task types
+    reconstructed from the request, plan, tool calls and errors, plain-Chinese actions with inline code
+    previews, fine-grained 7-phase coding steps whose progress advances within each phase, a focused
+    done/doing/next main panel with every step in the detail view, one status light beside a thick starry
+    progress bar with a swaying DeepSeek mascot marker, detailed ops_bash commands, contextual status,
+    settings for size/custom width and height/density/background, current lessons, and error memory in
+    AGENTS.md. No extra model calls or token spend.
+  zh: >-
+    常驻可拖动的任务透视：结合请求、计划、工具调用与错误还原绘图、编码等任务的步骤，编码使用 7 个
+    细分阶段，阶段内继续按工具调用推进；主面板只显示已完成、正在做和下一步，详情页列出完整步骤与动作。
+    把工具调用翻成通俗中文，每一步带代码首行，ops_bash 显示命令、脚本与目录；加粗的星点进度条内星星
+    流动，进度原点使用轻摇的 DeepSeek 娘图片；设置页可调大小、自定义宽高、信息密度、背景并查看当前经验；
+    错误经验写入 AGENTS.md 供后续会话自动参考。不额外调用模型、不消耗 token。
+
+# 可选：npm 包名（发布后自动映射版本与下载量）
+# npm: dsh-task-lens
